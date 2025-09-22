@@ -93,8 +93,6 @@ qa-tech-test/
 
 npx cypress run
 
-(Ejecutar pruebas específicas)
-
 # Para las pruebas de la plataforma web (OrangeHRM)
 npx cypress run --spec "cypress/e2e/web/orangehrm.cy.js"
 
