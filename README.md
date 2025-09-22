@@ -18,5 +18,7 @@ Evaluar las habilidades técnicas en la automatización de pruebas (Cypress, Jav
 ## ¿Cómo Empezar?
 ### 1. Clonar el Repositorio
 bash
+
 git clone https://github.com/casasolareyessalmaconcepcion-blip/Orangehrm.git
+
 cd Orangehrm
