@@ -1,5 +1,5 @@
 # Orangehrm
-Prueba técnica QA Engineer: Web 
+##Prueba técnica QA Engineer: Web 
 Este repositorio contiene la solución a la prueba técnica de QA Engineer, enfocándose en la automatización de pruebas para una plataforma web (OrangeHRM) junto con la configuración de un pipeline de CI/CD utilizando GitHub Actions.
 ---
 ## Objetivo
