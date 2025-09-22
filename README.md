@@ -60,13 +60,21 @@ Esto ejecutará todas las pruebas en un navegador sin interfaz gráfica y genera
 
 ### Estructura del Proyecto
 qa-tech-test/
+
 ├── cypress/                  # Contiene todos los archivos de Cypress
+
 │   ├── e2e/                  # Archivos de especificación de las pruebas E2E
+
 │   │   └── web/
+
 │   │       └── orangehrm.cy.js  # Pruebas para OrangeHRM
+
 │   ├── fixtures/             # Datos de prueba (JSON, imágenes, etc.)
+
 │   │   ├── orangehrm_data.json
+
 │   │   └── test_image.jpeg
+
 │   └── support/              # Comandos personalizados y configuraciones globales
 │       ├── commands.js       # Comandos personalizados (ej. cy.login())
 │       └── e2e.js            # Archivo principal de soporte (manejo de uncaught:exception)
