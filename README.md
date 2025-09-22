@@ -29,7 +29,7 @@ Una vez en la raíz del proyecto, instala todas las dependencias necesarias, inc
 npm install
 ### 4. Configuración de PowerShell (Solo Windows)
 Si utilizas PowerShell en Windows y experimentas errores relacionados con la política de ejecución de scripts,cambia la configuración. Abre PowerShell como administrador y ejecuta:
-powershell
+
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Luego, escribe Y y presiona Enter para confirmar. Cierra y vuelve a abrir tu terminal de VS Code.
@@ -59,7 +59,9 @@ Ejecutar todas las pruebas en modo Headless (línea de comandos)
 Esto ejecutará todas las pruebas en un navegador sin interfaz gráfica y generará los informes.
 
 npx cypress run
+
 (Ejecutar pruebas específicas)
 
 # Para las pruebas de la plataforma web (OrangeHRM)
+
 npx cypress run --spec "cypress/e2e/web/orangehrm.cy.js"
