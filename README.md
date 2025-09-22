@@ -76,12 +76,19 @@ qa-tech-test/
 │   │   └── test_image.jpeg
 
 │   └── support/              # Comandos personalizados y configuraciones globales
+
 │       ├── commands.js       # Comandos personalizados (ej. cy.login())
+
 │       └── e2e.js            # Archivo principal de soporte (manejo de uncaught:exception)
+
 ├── cypress.config.js         # Archivo de configuración principal de Cypress
+
 ├── package.json              # Metadatos del proyecto y dependencias
+
 ├── package-lock.json         # Bloqueo de versiones de dependencias
+
 ├── README.md                 # Este archivo
+
 └── .gitignore                # Archivos ignorados por Git
 
 npx cypress run
@@ -89,5 +96,4 @@ npx cypress run
 (Ejecutar pruebas específicas)
 
 # Para las pruebas de la plataforma web (OrangeHRM)
-
 npx cypress run --spec "cypress/e2e/web/orangehrm.cy.js"
