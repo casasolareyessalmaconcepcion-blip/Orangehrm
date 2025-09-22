@@ -1,0 +1,32 @@
+{
+  "validCredentials": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalidCredentials": {
+    "username": "invalidUser",
+    "password": "wrongPassword"
+  },
+  "personalDetails": {
+    "firstName": "Salma",
+    "middleName": "Casasola",
+    "lastName": "Reyes",
+    "employeeId": "EMP001",
+    "driversLicenseNumber": "DLN123",
+    "otherId": "OID67890",
+    "licenseExpiryDate": "2028-12-08",
+    "nationality": "Mexican",
+    "maritalStatus": "Single",
+    "dateOfBirth": "1998-12-08",
+    "gender": "Female"
+  },
+  "customFields": {
+    "bloodType": "O+",
+    "testField": "Custom Value"
+  },
+  "attachmentDetails": { 
+    "fileName": "test_image.png", 
+    "fileMimeType": "image/png", 
+    "comment": "Comentario de prueba"
+  }
+}
