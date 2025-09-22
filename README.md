@@ -58,6 +58,24 @@ npx cypress open
 Ejecutar todas las pruebas en modo Headless (línea de comandos)
 Esto ejecutará todas las pruebas en un navegador sin interfaz gráfica y generará los informes.
 
+### Estructura del Proyecto
+qa-tech-test/
+├── cypress/                  # Contiene todos los archivos de Cypress
+│   ├── e2e/                  # Archivos de especificación de las pruebas E2E
+│   │   └── web/
+│   │       └── orangehrm.cy.js  # Pruebas para OrangeHRM
+│   ├── fixtures/             # Datos de prueba (JSON, imágenes, etc.)
+│   │   ├── orangehrm_data.json
+│   │   └── test_image.jpeg
+│   └── support/              # Comandos personalizados y configuraciones globales
+│       ├── commands.js       # Comandos personalizados (ej. cy.login())
+│       └── e2e.js            # Archivo principal de soporte (manejo de uncaught:exception)
+├── cypress.config.js         # Archivo de configuración principal de Cypress
+├── package.json              # Metadatos del proyecto y dependencias
+├── package-lock.json         # Bloqueo de versiones de dependencias
+├── README.md                 # Este archivo
+└── .gitignore                # Archivos ignorados por Git
+
 npx cypress run
 
 (Ejecutar pruebas específicas)
