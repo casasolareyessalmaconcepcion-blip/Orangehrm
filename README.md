@@ -97,3 +97,7 @@ npx cypress run
 
 # Para las pruebas de la plataforma web (OrangeHRM)
 npx cypress run --spec "cypress/e2e/web/orangehrm.cy.js"
+
+<img width="1529" height="824" alt="image" src="https://github.com/user-attachments/assets/9c0e3c98-d312-44dd-996f-8dc8932e2255" />
+<img width="1535" height="808" alt="image" src="https://github.com/user-attachments/assets/1eb8cade-bb8e-4c9e-89da-59fc6e9650d1" />
+
